@@ -1,0 +1,36 @@
+.blog-card {
+  max-width: 380px;
+
+  &__img {
+    margin-bottom: 20px;
+  }
+
+  &__date {
+    padding-bottom: 7px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #818181;
+  }
+
+  &__title {
+    cursor: pointer;
+    padding-bottom: 19px;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1e0606;
+  }
+
+  &__link:hover,
+  &__link:active {
+    cursor: pointer;
+    text-decoration-line: underline;
+    text-decoration-color: #000000;
+  }
+
+  &__description {
+    font-size: 18px;
+    line-height: 25px;
+    color: #1e0606;
+  }
+}

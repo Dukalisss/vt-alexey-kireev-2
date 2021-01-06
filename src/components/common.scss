@@ -1,3 +1,4 @@
+@import "./vars";
 * {
   font-family: "Open Sans", "Montserrat", "Roboto", "Crimson Text", Arial,
     sans-serif;
@@ -40,11 +41,22 @@ p {
   height: 0;
   left: -9999px;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.audio-fon {
+  display: none;
+}
+
 // Подключение компонентов
 @import "./header/header";
 @import "./footer/footer";
-@import "./category-products-block-item/category-products-block-item";
-@import "./toys-item/toys-item";
-@import "./blog-item/blog-item";
+@import "./category-card/category-card";
+@import "./toys-card/toys-card";
+@import "./blog-card/blog-card";
 @import "./button/button";
 @import "./link/link";
+@import "./svg/svg";
